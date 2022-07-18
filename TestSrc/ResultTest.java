@@ -36,7 +36,18 @@ class ResultTest {
     @Test
     void counting2Valleys() {
         int result = Result.countingValleys(10, "DUDDDUUDUU");
-        System.out.println("Result" + result);
+        assertEquals(2, result);
+    }
 
+    @Test
+    void countingValleys100Steps() {
+        int result = Result.countingValleys(100, "UDUDDUUUDUDUDUUDUUDDDDDUDUDDDDUUDDUDDUUUUDUUDUDDDDUDUDUUUDDDUUUDUDDUUDDDUUDDUDDDUDUUDUUDUUDUDDDUUUUU");
+        assertEquals(6, result);
+    }
+
+    @Test
+    void countingValleys100Steps2() {
+        int result = Result.countingValleys(100, "DDUUDDDUDUUDUDDDUUDDUDDDUDDDUDUUDDUUDDDUDDDUDDDUUUDUDDDUDUDUDUUDDUDUDUDUDUUUUDDUDDUUDUUDUUDUUUUUUUUU");
+        assertEquals(2, result);
     }
 }

@@ -19,25 +19,27 @@ class Result {
 
         for (int i=0; i <= numSteps.length - 1; i++) {
             switch (numSteps[i]) {
-                case 'U' -> {
+                case 'U':
                     prevPos = pos;
                     pos++;
                     if (prevPos < 0 && pos == 0) {
                         numValley++;
                     }
-                }
-                case 'D' -> {
+                    break;
+                case 'D':
                     prevPos = pos;
                     pos--;
                     if (prevPos < 0 && pos == 0) {
                         numValley++;
                     }
-                }
-                default -> throw new IllegalStateException("Unexpected value: " + numSteps[i]);
+                    break;
+
+                default:
+                    throw new IllegalStateException("Unexpected value: " + numSteps[i]);
+
             }
         }
 
-        System.out.println(numValley);
         return numValley;
     }
 
