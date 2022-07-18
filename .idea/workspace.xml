@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="77862ce7-da67-44a3-a388-c70e60bfe0aa" name="Changes" comment="Counting number of Valley.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestSrc/ResultTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestSrc/ResultTest.java" afterDir="false" />
+    <list default="true" id="77862ce7-da67-44a3-a388-c70e60bfe0aa" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/src/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Result.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +85,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658179840811</updated>
-      <workItem from="1658179842045" duration="3124000" />
+      <workItem from="1658179842045" duration="3203000" />
     </task>
     <task id="LOCAL-00001" summary="Counting number of Valley.">
       <created>1658182289138</created>
@@ -96,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658182289138</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Counting number of Valley.">
+      <created>1658183021086</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1658183021086</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
